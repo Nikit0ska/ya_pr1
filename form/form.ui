@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>621</width>
+    <width>662</width>
     <height>486</height>
    </rect>
   </property>
@@ -20,7 +20,7 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushButton_22">
+   <widget class="QPushButton" name="f4_2">
     <property name="geometry">
      <rect>
       <x>450</x>
@@ -39,7 +39,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_16">
+   <widget class="QPushButton" name="d3_2">
     <property name="geometry">
      <rect>
       <x>90</x>
@@ -58,7 +58,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_19">
+   <widget class="QPushButton" name="a4_2">
     <property name="geometry">
      <rect>
       <x>250</x>
@@ -77,7 +77,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_21">
+   <widget class="QPushButton" name="d4_2">
     <property name="geometry">
      <rect>
       <x>370</x>
@@ -96,11 +96,11 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_27">
+   <widget class="QPushButton" name="stop">
     <property name="geometry">
      <rect>
       <x>250</x>
-      <y>360</y>
+      <y>20</y>
       <width>101</width>
       <height>71</height>
      </rect>
@@ -109,7 +109,7 @@
      <string>Стоп</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_17">
+   <widget class="QPushButton" name="f3_2">
     <property name="geometry">
      <rect>
       <x>170</x>
@@ -128,7 +128,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_9">
+   <widget class="QPushButton" name="d4">
     <property name="geometry">
      <rect>
       <x>340</x>
@@ -148,7 +148,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QPushButton" name="e3">
     <property name="geometry">
      <rect>
       <x>100</x>
@@ -168,7 +168,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_24">
+   <widget class="QPushButton" name="a5_2">
     <property name="geometry">
      <rect>
       <x>530</x>
@@ -187,7 +187,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_20">
+   <widget class="QPushButton" name="c4_2">
     <property name="geometry">
      <rect>
       <x>330</x>
@@ -206,7 +206,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_8">
+   <widget class="QPushButton" name="c4">
     <property name="geometry">
      <rect>
       <x>300</x>
@@ -226,7 +226,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_10">
+   <widget class="QPushButton" name="e4">
     <property name="geometry">
      <rect>
       <x>380</x>
@@ -246,7 +246,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_14">
+   <widget class="QPushButton" name="b5">
     <property name="geometry">
      <rect>
       <x>540</x>
@@ -266,11 +266,11 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_26">
+   <widget class="QPushButton" name="listen">
     <property name="geometry">
      <rect>
       <x>480</x>
-      <y>360</y>
+      <y>20</y>
       <width>101</width>
       <height>71</height>
      </rect>
@@ -279,7 +279,7 @@
      <string>Прослушать</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_7">
+   <widget class="QPushButton" name="b4">
     <property name="geometry">
      <rect>
       <x>260</x>
@@ -299,7 +299,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_6">
+   <widget class="QPushButton" name="a4">
     <property name="geometry">
      <rect>
       <x>220</x>
@@ -319,20 +319,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QLabel" name="label_2">
-    <property name="geometry">
-     <rect>
-      <x>530</x>
-      <y>50</y>
-      <width>58</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Тон</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_23">
+   <widget class="QPushButton" name="g4_2">
     <property name="geometry">
      <rect>
       <x>490</x>
@@ -351,7 +338,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_4">
+   <widget class="QPushButton" name="f3">
     <property name="geometry">
      <rect>
       <x>140</x>
@@ -371,7 +358,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="c3">
     <property name="geometry">
      <rect>
       <x>20</x>
@@ -391,11 +378,11 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_25">
+   <widget class="QPushButton" name="record">
     <property name="geometry">
      <rect>
       <x>250</x>
-      <y>360</y>
+      <y>20</y>
       <width>101</width>
       <height>71</height>
      </rect>
@@ -404,7 +391,7 @@
      <string>Запись</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_12">
+   <widget class="QPushButton" name="g4">
     <property name="geometry">
      <rect>
       <x>460</x>
@@ -424,7 +411,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_18">
+   <widget class="QPushButton" name="g3_2">
     <property name="geometry">
      <rect>
       <x>210</x>
@@ -443,7 +430,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_15">
+   <widget class="QPushButton" name="c3_2">
     <property name="geometry">
      <rect>
       <x>50</x>
@@ -462,7 +449,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_13">
+   <widget class="QPushButton" name="a5">
     <property name="geometry">
      <rect>
       <x>500</x>
@@ -482,23 +469,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QSpinBox" name="spinBox_2">
-    <property name="geometry">
-     <rect>
-      <x>480</x>
-      <y>50</y>
-      <width>46</width>
-      <height>26</height>
-     </rect>
-    </property>
-    <property name="minimum">
-     <number>-5</number>
-    </property>
-    <property name="maximum">
-     <number>5</number>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_11">
+   <widget class="QPushButton" name="f4">
     <property name="geometry">
      <rect>
       <x>420</x>
@@ -518,7 +489,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_5">
+   <widget class="QPushButton" name="g3">
     <property name="geometry">
      <rect>
       <x>180</x>
@@ -538,36 +509,7 @@
      <string/>
     </property>
    </widget>
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>290</x>
-      <y>50</y>
-      <width>58</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Скорость</string>
-    </property>
-   </widget>
-   <widget class="QSpinBox" name="spinBox">
-    <property name="geometry">
-     <rect>
-      <x>240</x>
-      <y>50</y>
-      <width>46</width>
-      <height>26</height>
-     </rect>
-    </property>
-    <property name="minimum">
-     <number>-5</number>
-    </property>
-    <property name="maximum">
-     <number>5</number>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="d3">
     <property name="geometry">
      <rect>
       <x>60</x>
@@ -587,67 +529,96 @@
      <string/>
     </property>
    </widget>
-   <widget class="QCheckBox" name="checkBox">
+   <widget class="QPushButton" name="c5">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>50</y>
-      <width>99</width>
-      <height>21</height>
+      <x>580</x>
+      <y>130</y>
+      <width>41</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px solid #8f8f91;
+
+    background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                      stop: 0 #f6f7fa, stop: 1 #dadbde);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="save_pc">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>101</width>
+      <height>71</height>
      </rect>
     </property>
     <property name="text">
-     <string>Эхо</string>
+     <string>Сохранить </string>
     </property>
    </widget>
-   <zorder>pushButton_27</zorder>
-   <zorder>pushButton_14</zorder>
-   <zorder>pushButton_13</zorder>
-   <zorder>pushButton_12</zorder>
-   <zorder>pushButton_11</zorder>
-   <zorder>pushButton_10</zorder>
-   <zorder>pushButton_9</zorder>
-   <zorder>pushButton_8</zorder>
-   <zorder>pushButton_7</zorder>
-   <zorder>pushButton_6</zorder>
-   <zorder>pushButton_5</zorder>
-   <zorder>pushButton_4</zorder>
-   <zorder>pushButton_3</zorder>
-   <zorder>pushButton</zorder>
-   <zorder>pushButton_2</zorder>
-   <zorder>pushButton_22</zorder>
-   <zorder>pushButton_16</zorder>
-   <zorder>pushButton_19</zorder>
-   <zorder>pushButton_21</zorder>
-   <zorder>pushButton_17</zorder>
-   <zorder>pushButton_24</zorder>
-   <zorder>pushButton_20</zorder>
-   <zorder>pushButton_26</zorder>
-   <zorder>label_2</zorder>
-   <zorder>pushButton_23</zorder>
-   <zorder>pushButton_18</zorder>
-   <zorder>pushButton_15</zorder>
-   <zorder>spinBox_2</zorder>
-   <zorder>label</zorder>
-   <zorder>spinBox</zorder>
-   <zorder>checkBox</zorder>
-   <zorder>pushButton_25</zorder>
-  </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>621</width>
-     <height>24</height>
-    </rect>
-   </property>
-   <widget class="QMenu" name="menu">
-    <property name="title">
-     <string>Список мелодий</string>
+   <widget class="QPushButton" name="save_db">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>340</y>
+      <width>301</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Сохранить в базу данных</string>
     </property>
    </widget>
-   <addaction name="menu"/>
+   <widget class="QPushButton" name="open_list">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>340</y>
+      <width>301</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Открыть список мелодий</string>
+    </property>
+   </widget>
+   <zorder>stop</zorder>
+   <zorder>record</zorder>
+   <zorder>b5</zorder>
+   <zorder>a5</zorder>
+   <zorder>g4</zorder>
+   <zorder>f4</zorder>
+   <zorder>e4</zorder>
+   <zorder>d4</zorder>
+   <zorder>c4</zorder>
+   <zorder>b4</zorder>
+   <zorder>a4</zorder>
+   <zorder>g3</zorder>
+   <zorder>f3</zorder>
+   <zorder>e3</zorder>
+   <zorder>c3</zorder>
+   <zorder>d3</zorder>
+   <zorder>f4_2</zorder>
+   <zorder>d3_2</zorder>
+   <zorder>a4_2</zorder>
+   <zorder>d4_2</zorder>
+   <zorder>f3_2</zorder>
+   <zorder>a5_2</zorder>
+   <zorder>c4_2</zorder>
+   <zorder>listen</zorder>
+   <zorder>g4_2</zorder>
+   <zorder>g3_2</zorder>
+   <zorder>c3_2</zorder>
+   <zorder>c5</zorder>
+   <zorder>save_pc</zorder>
+   <zorder>save_db</zorder>
+   <zorder>open_list</zorder>
   </widget>
  </widget>
  <resources/>
