@@ -1,12 +1,4 @@
 import pyaudio
-import wave
-import threading
-import playsound
-
-def play():
-    playsound.playsound('tmp/output.wav')
-
-
-x = threading.Thread(target=play)
-x.start()
-x.join()
+p = pyaudio.PyAudio()
+for i in range(p.get_device_count()):
+    print(i, p.get_device_info_by_index(i)['name'])
