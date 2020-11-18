@@ -1,8 +1,5 @@
 import sqlite3
-import sys
-
 from PyQt5 import uic
-from PyQt5.QtWidgets import QApplication
 from PyQt5.QtWidgets import QMainWindow, QTableWidgetItem
 import playsound
 
@@ -17,26 +14,40 @@ class MyWidget(QMainWindow):
         self.pushButton_4.clicked.connect(self.download)
         self.pushButton_5.clicked.connect(self.delete_elem)
         self.pushButton_3.clicked.connect(self.listen_melody)
+        self.pushButton_2.hide()
+        self.pushButton_3.hide()
+        self.pushButton_4.hide()
+        self.pushButton_5.hide()
         self.modified = {}
         self.titles = None
+        self.setWindowTitle("Melodies")
 
     def update_result(self):
         cur = self.con.cursor()
-        # Получили результат запроса, который ввели в текстовое поле
         if self.spinBox.text() == '-1':
             result = cur.execute("SELECT id, melody_name FROM melodies").fetchall()
+            self.pushButton_2.hide()
+            self.pushButton_3.hide()
+            self.pushButton_4.hide()
+            self.pushButton_5.hide()
+            self.pushButton_5.show()
+            self.pushButton_4.show()
         else:
             result = cur.execute("SELECT id, melody_name FROM melodies WHERE id=?",
                                  (item_id := self.spinBox.text(),)).fetchall()
-        # Заполнили размеры таблицы
+            if result:
+                self.pushButton_2.show()
+                self.pushButton_3.show()
+                self.pushButton_4.show()
+                self.pushButton_5.show()
+                self.pushButton_5.show()
+                self.pushButton_4.show()
         self.tableWidget.setRowCount(len(result))
-        # Если запись не нашлась, то не будем ничего делать
         if not result:
             self.statusBar().showMessage('Ничего не нашлось')
             return
         self.tableWidget.setColumnCount(len(result[0]))
         self.titles = [description[0] for description in cur.description]
-        # Заполнили таблицу полученными элементами
         for i, elem in enumerate(result):
             for j, val in enumerate(elem):
                 self.tableWidget.setItem(i, j, QTableWidgetItem(str(val)))
@@ -44,8 +55,6 @@ class MyWidget(QMainWindow):
 
 
     def item_changed(self, item):
-        # Если значение в ячейке было изменено,
-        # то в словарь записывается пара: название поля, новое значение
         self.modified[self.titles[item.column()]] = item.text()
 
     def save_results(self):
@@ -70,7 +79,6 @@ class MyWidget(QMainWindow):
                 op.write(data[0][1])
 
     def delete_elem(self):
-        # Получаем список элементов без повторов и их id
         rows = list(set([i.row() for i in self.tableWidget.selectedItems()]))
         ids = [self.tableWidget.item(i, 0).text() for i in rows]
         cur = self.con.cursor()
@@ -84,9 +92,7 @@ class MyWidget(QMainWindow):
             cur = self.con.cursor()
             que = "SELECT melody_data FROM melodies WHERE id = ?"
             song = list(cur.execute(que, (self.spinBox.text(),)))[0][0]
-            with open(f'tmp/tmp.wav', 'wb') as op:
+            with open(f'tmp/tmpBD.wav', 'wb') as op:
                 op.write(song)
-            playsound.playsound('tmp/tmp.wav')
-
-
+            playsound.playsound('tmp/tmpBD.wav')
 
